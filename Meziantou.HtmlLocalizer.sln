@@ -12,6 +12,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Meziantou.HtmlLocalizer", "src\Meziantou.HtmlLocalizer\Meziantou.HtmlLocalizer.xproj", "{9545D25D-D426-4801-9D6E-806EEC2157A7}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Meziantou.HtmlLocalizerTests", "test\Meziantou.HtmlLocalizerTests\Meziantou.HtmlLocalizerTests.xproj", "{3DCEABA7-0905-45C5-BF01-332F5FDDE9BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{88ED7CB7-628D-4C24-ADDB-7B82700201BC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Meziantou.HtmlLocalizer.Tools", "src\Meziantou.HtmlLocalizer.Tools\Meziantou.HtmlLocalizer.Tools.xproj", "{C10A6BC6-6BC8-4CB1-ADE5-40BBF68CC664}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Meziantou.HtmlLocalizer.WebApp", "test\Meziantou.HtmlLocalizer.WebApp\Meziantou.HtmlLocalizer.WebApp.xproj", "{A87633F6-0856-42AC-A2F2-1941E64274AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +30,26 @@ Global
 		{9545D25D-D426-4801-9D6E-806EEC2157A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9545D25D-D426-4801-9D6E-806EEC2157A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9545D25D-D426-4801-9D6E-806EEC2157A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCEABA7-0905-45C5-BF01-332F5FDDE9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCEABA7-0905-45C5-BF01-332F5FDDE9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCEABA7-0905-45C5-BF01-332F5FDDE9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCEABA7-0905-45C5-BF01-332F5FDDE9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10A6BC6-6BC8-4CB1-ADE5-40BBF68CC664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10A6BC6-6BC8-4CB1-ADE5-40BBF68CC664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10A6BC6-6BC8-4CB1-ADE5-40BBF68CC664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10A6BC6-6BC8-4CB1-ADE5-40BBF68CC664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87633F6-0856-42AC-A2F2-1941E64274AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87633F6-0856-42AC-A2F2-1941E64274AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87633F6-0856-42AC-A2F2-1941E64274AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87633F6-0856-42AC-A2F2-1941E64274AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9545D25D-D426-4801-9D6E-806EEC2157A7} = {369CEB8E-161F-46F9-87AB-05E726892E61}
+		{3DCEABA7-0905-45C5-BF01-332F5FDDE9BE} = {88ED7CB7-628D-4C24-ADDB-7B82700201BC}
+		{C10A6BC6-6BC8-4CB1-ADE5-40BBF68CC664} = {369CEB8E-161F-46F9-87AB-05E726892E61}
+		{A87633F6-0856-42AC-A2F2-1941E64274AD} = {88ED7CB7-628D-4C24-ADDB-7B82700201BC}
 	EndGlobalSection
 EndGlobal

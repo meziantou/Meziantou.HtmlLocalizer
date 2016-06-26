@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Meziantou.HtmlLocalizer.Tools": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\meziantou\\Desktop\\Html\\localization.json\""
+    }
+  }
+}

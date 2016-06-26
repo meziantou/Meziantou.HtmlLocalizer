@@ -1,0 +1,22 @@
+﻿{
+    "version": "1.0.0-*",
+    "buildOptions": {
+        "emitEntryPoint": true,
+        "outputName": "dotnet-htmllocalizer"
+    },
+
+    "dependencies": {
+        "Microsoft.NETCore.App": {
+            "type": "platform",
+            "version": "1.0.0-rc2-3002702"
+        },
+        "Meziantou.HtmlLocalizer": "1.0.0-*",
+        "Meziantou.Framework": "1.0.4"
+    },
+
+    "frameworks": {
+        "netcoreapp1.0": {
+            "imports": [ "dnxcore50", "portable-net45+win8+wp8+wpa81" ]
+        }
+    }
+}
